@@ -1,0 +1,321 @@
+:root {
+  --pr-color: #ffa500;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.nav-link {
+  font-size: 16px;
+  color: #fff;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+.btn_daftar {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 129px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+}
+.btn_masuk {
+  color: orange;
+  font-size: 16px;
+  font-weight: 700;
+  width: 129px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+}
+
+.btn-temukan-panel {
+  /* color: var(--pr-color--); */
+  font-size: 24px;
+  font-weight: 200;
+  width: 300px;
+  height: 118px;
+  border: none;
+  background-color: #ffffff;
+}
+
+/* hero section */
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+.img-hero {
+  height: 100%;
+  /* top: 7%; */
+}
+.hero-tagline h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 72px;
+}
+.hero-tagline p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 90%;
+}
+
+.position-vector {
+  margin-left: 20px;
+}
+
+/* Layanan Section */
+#layanan {
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon {
+  width: 120px;
+  height: 120px;
+  /* margin-left: 200px; */
+  border-radius: 50%;
+  background-color: var(--pr-color);
+  transition: all 0.1s ease-in;
+}
+
+.card-layanan h3 {
+  color: var(--pr-color);
+  font-size: 22px;
+  transition: all 0.2s ease-in;
+}
+.card-layanan p {
+  color: #000;
+  font-size: 12px;
+  transition: all 0.3s ease-in;
+}
+
+/* hover */
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover h3 {
+  color: #ffffff;
+  font-size: 22px;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover p {
+  color: #ffffff;
+  font-size: 12px;
+  transition: all 0.2s ease-in;
+}
+
+/* search section */
+
+#search {
+  background-image: url(../IMG/search_section.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0em;
+}
+
+#search p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input-cari {
+  height: 88px;
+  border: none;
+}
+
+.input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 88px;
+  background-color: rgba(225, 225, 225, 0.8);
+  color: var(--pr-color);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+}
+
+.input-cari .button-primary {
+  height: 88px;
+  background-color: var(--pr-color);
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(225, 225, 225, 0.8);
+  border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.nav-link.active {
+  background-color: rgba(225, 225, 225, 0.8);
+  color: var(--pr-color);
+  border-radius: 10px 0 0 0;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link {
+  color: #000;
+  border: none;
+}
+
+/* Rekomendasi Panel */
+.row {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.card {
+  height: 460px;
+  width: 380;
+  border: none;
+}
+
+.card-body h4 {
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0.8rem;
+}
+
+.card:hover {
+  background: linear-gradient(170deg, var(--pr-color), #ffa500, #ffa500, #000);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Card fitur rumah */
+
+.button-fitur {
+  width: 238px;
+  height: 63px;
+  background-color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+#fitur h2 {
+  font-size: 49px;
+  font-weight: 500;
+}
+
+.card-fitur h5 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.card-fitur span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.card-fitur h6 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-fitur button {
+  background-color: var(--pr-color);
+  color: #fff;
+  border: none;
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.25s;
+}
+.card-fitur .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.button-arrow-left {
+  border: none;
+  margin-left: 83px;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-color);
+  padding: 0;
+}
+
+.button-arrow-right {
+  border: none;
+  margin-right: 105px;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-color);
+  padding: 0;
+}
